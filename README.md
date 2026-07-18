@@ -16,33 +16,32 @@ I enjoy working close to hardware — from STM32 firmware and RTOS-based applica
 
 ## Featured Projects
 
-### 🚗 Parking-System
+### 🚗 [Parking-System](https://github.com/IliaRakhlevski/Parking-System)
 
-Distributed parking management system built around STM32, BeagleBone Green and Linux applications.
+Distributed embedded system integrating STM32 firmware, BeagleBone Green and Linux applications.
 
-The system demonstrates communication between embedded firmware and Linux-based applications using a multi-process architecture. It includes hardware interaction, network communication, process synchronization and database management.
+Highlights:
+- Embedded Linux and multi-process architecture
+- STM32 hardware communication
+- IPC and network-based communication
 
-Key features:
-- STM32-based GPS simulator
-- BeagleBone Green Linux services
-- Multi-process system architecture
-- Real-time parking event processing
-- Dynamic parking price management
 
-Technologies:
-C, C++, STM32 HAL, Embedded Linux, POSIX APIs, FreeRTOS concepts
+### 🚨 [City-Emergency-Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
-### 🔧 STM32 Peripheral Tester
+C++ application demonstrating object-oriented design and real-time event handling.
 
-Automated hardware validation system for STM32 peripherals.
+Highlights:
+- C++ development
+- Multithreading
+- System design
 
-The project implements a modular testing framework capable of running multiple peripheral tests concurrently on an STM32 platform.
 
-Key features:
-- Automated peripheral validation
-- Concurrent test execution
-- Hardware communication testing
-- Real-time test monitoring
+### 🔧 [STM32-Peripheral-Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
-Technologies:
-C, STM32 HAL, FreeRTOS
+STM32-based hardware validation framework for peripheral testing.
+
+Highlights:
+- FreeRTOS-based firmware
+- STM32 HAL
+- Peripheral testing automation
+
