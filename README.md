@@ -7,12 +7,12 @@ I enjoy working close to hardware — from STM32 firmware and RTOS-based applica
 ## Technologies
 
 - **Languages:** C, C++
-- **Embedded:** STM32, STM32 HAL, FreeRTOS, ARM Cortex-M, LwIP
-- **Embedded Linux:** BeagleBone Green, Linux system programming, systemd
-- **Networking:** TCP/IP, BSD sockets, Ethernet communication
-- **Concurrency:** Multithreading, processes, IPC, synchronization mechanisms
-- **Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX
-- **Platforms:** Linux, Embedded Linux, BeagleBone Green
+- **Hardware & Embedded Platforms:** STM32, BeagleBone Green
+- **Embedded Frameworks & RTOS:** STM32 HAL, FreeRTOS, LwIP
+- **Linux & System Software:** Linux, Embedded Linux, systemd
+- **Networking:** TCP/IP, UDP, BSD sockets, Ethernet
+- **Concurrency & IPC:** Multithreading, processes, IPC, synchronization mechanisms
+- **Development Tools:** Git, GNU Make, VS Code, STM32CubeIDE, STM32CubeMX
 
 ## Featured Projects
 
@@ -20,28 +20,27 @@ I enjoy working close to hardware — from STM32 firmware and RTOS-based applica
 
 Distributed embedded system integrating STM32 firmware, BeagleBone Green and Linux applications.
 
-Highlights:
-- Embedded Linux and multi-process architecture
-- STM32 hardware communication
-- IPC and network-based communication
+Key features:
+- Embedded Linux multi-process architecture
+- IPC, synchronization mechanisms and TCP communication
+- STM32 and Linux system integration
 
 
 ### 🚨 [City-Emergency-Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
-C++ application demonstrating object-oriented design and real-time event handling.
+Real-time emergency dispatch system for processing and managing concurrent events.
 
-Highlights:
-- C++ development
-- Multithreading
-- System design
+Key features:
+- FreeRTOS-based multitasking and synchronization mechanisms
+- Linux POSIX client-server architecture
+- UDP-based communication between system components
 
 
 ### 🔧 [STM32-Peripheral-Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
-STM32-based hardware validation framework for peripheral testing.
+Automated STM32 peripheral validation system with Linux-based test control.
 
-Highlights:
+Key features:
 - FreeRTOS-based firmware
-- STM32 HAL
-- Peripheral testing automation
-
+- Linux server for hardware validation
+- UART, SPI, I²C, ADC and Timer testing
