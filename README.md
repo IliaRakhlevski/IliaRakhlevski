@@ -9,6 +9,7 @@ I enjoy working close to hardware — from STM32 firmware and RTOS-based applica
 - **Languages:** C, C++
 - **Hardware & Embedded Platforms:** STM32, BeagleBone Green
 - **Embedded Frameworks & RTOS:** STM32 HAL, FreeRTOS, LwIP
+- **Embedded Peripherals:** UART, SPI, I²C, ADC, DAC, Timers, GPIO
 - **Linux & System Software:** Linux, Embedded Linux, systemd
 - **Networking:** TCP/IP, UDP, BSD sockets, Ethernet
 - **Concurrency & IPC:** Multithreading, processes, IPC, synchronization mechanisms
