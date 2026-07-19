@@ -33,7 +33,7 @@ Real-time emergency dispatch system for processing and managing concurrent event
 
 Key features:
 - FreeRTOS-based multitasking and synchronization mechanisms
-- STM32 firmware and Embedded Linux integration
+- Linux POSIX client-server architecture
 - UDP-based communication between system components
 
 
