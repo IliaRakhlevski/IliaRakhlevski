@@ -24,24 +24,24 @@ Distributed embedded system integrating STM32 firmware, BeagleBone Green and Lin
 Key features:
 - Embedded Linux multi-process architecture
 - IPC, synchronization mechanisms and TCP communication
-- STM32 firmware and Embedded Linux integration
+- STM32 firmware integration with Linux-based applications
 
 
 ### 🚨 [City-Emergency-Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
-Real-time emergency dispatch system for processing and managing concurrent events.
+Real-time emergency dispatch system implementing a Linux-based server and a FreeRTOS client.
 
 Key features:
 - FreeRTOS-based multitasking and synchronization mechanisms
-- Linux POSIX client-server architecture
-- UDP-based communication between system components
+- Linux POSIX server architecture with UDP communication
+- Real-time event processing and fault recovery mechanisms
 
 
 ### 🔧 [STM32-Peripheral-Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
-Automated STM32 peripheral validation system with Linux-based test control.
+Automated STM32 peripheral validation system with a Linux-based test server.
 
 Key features:
 - FreeRTOS-based firmware
-- Linux server for hardware validation
-- UART, SPI, I²C, ADC, DAC and Timer validation
+- UDP communication between Linux server and STM32 device
+- Peripheral validation including UART, SPI, I²C, ADC, DAC and Timers
