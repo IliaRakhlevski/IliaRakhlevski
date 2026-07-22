@@ -26,17 +26,6 @@ Key features:
 - IPC, synchronization mechanisms and TCP communication
 - STM32 firmware integration with Linux-based applications
 
-
-### 🚨 [City-Emergency-Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
-
-Real-time emergency dispatch system implementing a Linux-based server and a FreeRTOS client.
-
-Key features:
-- FreeRTOS-based multitasking and synchronization mechanisms
-- Linux POSIX server architecture with UDP communication
-- Real-time event processing and fault recovery mechanisms
-
-
 ### 🔧 [STM32-Peripheral-Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
 Automated STM32 peripheral validation system with a Linux-based test server.
