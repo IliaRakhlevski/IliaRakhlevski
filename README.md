@@ -1,45 +1,53 @@
 # Hi, I'm Ilia 👋
 
-C/C++ Software Engineer focused on Embedded Systems, Embedded Linux and low-level software development.
+Embedded Software Engineer specializing in C/C++, STM32, FreeRTOS, and Embedded Linux.
 
-I enjoy working close to hardware — from STM32 firmware and RTOS-based applications to Linux system programming.
+I build real-time systems close to the hardware: interrupt-driven firmware, sensor acquisition, hardware interfaces, network communication, concurrent Linux applications, and complete embedded prototypes.
 
-## Technologies
+## Technical Focus
 
+- **Embedded Firmware:** STM32, ARM Cortex-M, STM32 HAL, FreeRTOS
+- **Embedded Linux:** Linux system programming, POSIX APIs, systemd
 - **Languages:** C, C++
-- **Hardware & Embedded Platforms:** STM32, BeagleBone Green
-- **Embedded Frameworks & RTOS:** STM32 HAL, FreeRTOS, LwIP
-- **Embedded Peripherals:** UART, SPI, I²C, ADC, DAC, Timers, GPIO
-- **Linux & System Software:** Linux, Embedded Linux, systemd
-- **Networking:** TCP/IP, UDP, BSD sockets, Ethernet
-- **Concurrency & IPC:** Multithreading, processes, IPC, synchronization mechanisms
-- **Development Tools:** Git, GNU Make, VS Code, STM32CubeIDE, STM32CubeMX
+- **Real-Time Interfaces:** Interrupts, DMA, timers, UART, SPI, I²C, ADC, GPIO
+- **Concurrency & IPC:** POSIX threads, processes, shared memory, pipes, signals, synchronization
+- **Networking & Storage:** TCP/IP, UDP, BSD sockets, Ethernet, SQLite
+- **Development Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX, VS Code
 
 ## Featured Projects
 
-### 🛣️ [STM32-Road-Impact-Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
+### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
 Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
 
 Key features:
-- Interrupt-driven ICM-20948 IMU data acquisition
-- Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamps
-- Acceleration-baseline algorithm associating impact candidates with UTC time and GNSS coordinates
 
-### 🚗 [Parking-System](https://github.com/IliaRakhlevski/Parking-System)
+- Interrupt-driven ICM-20948 IMU acquisition at approximately 102 samples per second
+- Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamp capture
+- Common TIM2 timebase for synchronizing IMU measurements with GNSS time
+- Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
+- Real-hardware validation with documented field-test output, photographs, and video
 
-Distributed embedded system integrating STM32 firmware, BeagleBone Green and Linux applications.
+### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
-Key features:
-- Embedded Linux multi-process architecture
-- IPC, synchronization mechanisms and TCP communication
-- STM32 firmware integration with Linux-based applications
-
-### 🔧 [STM32-Peripheral-Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
-
-Automated STM32 peripheral validation system with a Linux-based test server.
+Distributed parking management system integrating STM32 firmware, BeagleBone Green, and multiple Embedded Linux applications.
 
 Key features:
-- FreeRTOS-based firmware
-- UDP communication between Linux server and STM32 device
-- Peripheral validation including UART, SPI, I²C, ADC, DAC and Timers
+
+- Multi-process Linux architecture with POSIX threads and synchronization
+- TCP/IP communication between embedded clients and an event-driven server
+- System V shared memory, shared queues, unnamed pipes, and POSIX signals
+- SQLite-based parking-session and tariff management
+- STM32-to-Linux integration over I²C with automatic startup through systemd
+
+### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
+
+Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS and a Linux UDP test server.
+
+Key features:
+
+- Concurrent validation of UART, SPI, I²C, ADC, and timer peripherals
+- Interrupt- and DMA-based test modes
+- Automated PASS/FAIL evaluation with random payload generation and CRC verification
+- UDP communication between the STM32 firmware and Linux server
+- Runtime statistics and persistent test results stored in SQLite
