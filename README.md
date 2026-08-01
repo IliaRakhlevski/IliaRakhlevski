@@ -17,6 +17,15 @@ I enjoy working close to hardware — from STM32 firmware and RTOS-based applica
 
 ## Featured Projects
 
+### 🛣️ [STM32-Road-Impact-Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
+
+Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
+
+Key features:
+- Interrupt-driven ICM-20948 IMU data acquisition
+- Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamps
+- Acceleration-baseline algorithm associating impact candidates with UTC time and GNSS coordinates
+
 ### 🚗 [Parking-System](https://github.com/IliaRakhlevski/Parking-System)
 
 Distributed embedded system integrating STM32 firmware, BeagleBone Green and Linux applications.
