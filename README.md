@@ -7,7 +7,7 @@ I build real-time systems close to the hardware: interrupt-driven firmware, sens
 ## Technical Focus
 
 - **Languages:** C, C++
-- **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8)
+- **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
 - **Embedded Firmware:** STM32 HAL, FreeRTOS, interrupt- and DMA-driven firmware
 - **Embedded Linux:** Linux system programming, POSIX APIs, systemd
 - **Sensors & Actuators:** Pimoroni ICM-20948 IMU, SG90 servo motor, 28BYJ-48 stepper motor
@@ -49,7 +49,7 @@ Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS 
 
 Key features:
 
-- Concurrent validation of UART, SPI, I²C, ADC, DAC and timer peripherals
+- Concurrent validation of UART, SPI, I²C, ADC, DAC, and timer peripherals
 - Interrupt- and DMA-based test modes
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
 - UDP communication between the STM32 firmware and Linux server
