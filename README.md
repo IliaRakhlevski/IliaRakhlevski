@@ -10,7 +10,8 @@ I build real-time systems close to the hardware: interrupt-driven firmware, sens
 - **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8)
 - **Embedded Firmware:** STM32 HAL, FreeRTOS, interrupt- and DMA-driven firmware
 - **Embedded Linux:** Linux system programming, POSIX APIs, systemd
-- **Sensors & GNSS:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, PPS timing
+- **Sensors & Actuators:** Pimoroni ICM-20948 IMU, SG90 servo motor, 28BYJ-48 stepper motor
+- **GNSS & Timing:** Quectel LC86G-LA GNSS receiver, NMEA positioning, PPS timing
 - **Hardware Interfaces:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers
 - **Concurrency & IPC:** POSIX threads, processes, shared memory, pipes, signals, synchronization
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, Ethernet, SQLite
@@ -48,7 +49,7 @@ Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS 
 
 Key features:
 
-- Concurrent validation of UART, SPI, I²C, ADC, and timer peripherals
+- Concurrent validation of UART, SPI, I²C, ADC, DAC and timer peripherals
 - Interrupt- and DMA-based test modes
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
 - UDP communication between the STM32 firmware and Linux server
