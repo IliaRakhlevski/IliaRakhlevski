@@ -11,7 +11,7 @@ I build real-time systems close to the hardware: interrupt-driven firmware, sens
 - **Embedded Firmware:** STM32 HAL, FreeRTOS, interrupt- and DMA-driven firmware
 - **Embedded Linux:** Linux system programming, POSIX APIs, systemd
 - **Sensors & GNSS:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, PPS timing
-- **Hardware Interfaces:** UART, SPI, I²C, ADC, GPIO, hardware timers
+- **Hardware Interfaces:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers
 - **Concurrency & IPC:** POSIX threads, processes, shared memory, pipes, signals, synchronization
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, Ethernet, SQLite
 - **Development Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX, VS Code
