@@ -1,6 +1,6 @@
 # Hi, I'm Ilia 👋
 
-Embedded Software Engineer specializing in C/C++, STM32, FreeRTOS, and Embedded Linux.
+Software Engineer specializing in C/C++, STM32, FreeRTOS, Embedded Linux.
 
 I build real-time systems close to the hardware: interrupt-driven firmware, sensor acquisition, hardware interfaces, network communication, concurrent Linux applications, and complete embedded prototypes.
 
