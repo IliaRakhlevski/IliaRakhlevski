@@ -8,14 +8,13 @@ Currently focused on modern embedded development with ARM, STM32, FreeRTOS, and 
 
 - **Languages:** C, C++
 - **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
-- **Real-Time & RTOS:** FreeRTOS, task scheduling, priority-based scheduling, queues, mutexes, semaphores, event groups, task notifications, ISR-to-task synchronization
-- **Embedded Firmware:** bare-metal ARM, STM32 HAL/CMSIS, direct memory-mapped register access, interrupt- and DMA-driven firmware, peripheral configuration and control
-- **Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, cross-compilation for ARM, systemd
-- **Sensors & Actuators:** Pimoroni ICM-20948 IMU, SG90 servo motor, 28BYJ-48 stepper motor
-- **GNSS & Timing:** Quectel LC86G-LA GNSS receiver, NMEA positioning, PPS synchronization, hardware input capture
+- **Real-Time & RTOS:** FreeRTOS, task scheduling, synchronization, inter-task communication
+- **Embedded Firmware:** bare-metal ARM, STM32 HAL/CMSIS, direct memory-mapped register access, interrupt- and DMA-driven firmware
+- **Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, systemd
+- **Sensors & Actuators:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, SG90 servo motor, 28BYJ-48 stepper motor
 - **Hardware Interfaces & Control:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers, PWM
-- **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, System V shared memory, shared queues, pipes, signals
-- **Networking & Storage:** TCP/IP, UDP, BSD sockets, event-driven networking (`select()`), Ethernet, SQLite
+- **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
+- **Networking & Storage:** TCP/IP, UDP, BSD sockets, Ethernet, SQLite
 - **Development Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX, VS Code
 
 ## Featured Projects
