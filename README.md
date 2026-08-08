@@ -15,7 +15,7 @@ My background spans desktop and system-level software, real-time applications, a
 - **Sensors & Actuators:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, SG90 servo motor, 28BYJ-48 stepper motor
 - **Hardware Interfaces & Control:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers, PWM
 - **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
-- **Networking & Storage:** TCP/IP, UDP, BSD sockets, Ethernet, SQLite
+- **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
 - **Development Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX, VS Code
 
 ## Featured Projects
