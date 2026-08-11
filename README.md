@@ -66,4 +66,4 @@ Key features:
 - Priority-based dispatch to specialized departments and independent vehicle tasks
 - UDP client-server communication with acknowledgements and completion reporting
 - SQLite event persistence, status tracking, and runtime statistics
-- Dynamic resource management, retry and fault-recovery mechanisms, validated through a continuous 10-hour stress test
+- Dynamic management of emergency vehicle availability, interrupted-event retries, and fault recovery, validated through a continuous 10-hour stress test
