@@ -55,3 +55,15 @@ Key features:
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
 - UDP communication between the STM32 firmware and Linux server
 - Runtime statistics and persistent test results stored in SQLite
+
+### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
+
+Real-time emergency dispatch simulation built with FreeRTOS POSIX on Linux, featuring UDP networking, priority scheduling, SQLite persistence, and fault recovery.
+
+Key features:
+
+- FreeRTOS tasks, queues, mutexes, and event groups for concurrent event processing
+- Priority-based dispatch to specialized departments and independent vehicle tasks
+- UDP client-server communication with acknowledgements and completion reporting
+- SQLite event persistence, status tracking, and runtime statistics
+- Dynamic resource management, retry and fault-recovery mechanisms, validated through a continuous 10-hour stress test
