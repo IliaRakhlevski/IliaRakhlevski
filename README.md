@@ -20,6 +20,18 @@ My background spans desktop and system-level software, real-time applications, a
 
 ## Featured Projects
 
+### 🚢 [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle)
+
+Battleship in C++17 with the classic 10-ship rules (ships may not touch, a hit earns another shot), designed as a reusable game-rules library with a separate console front end.
+
+Key features:
+
+- Rules library with no I/O: board, fleet placement, shooting and game session are independent of the UI
+- Pluggable placement and targeting strategies (Strategy), game events for any front end (Observer), dependency injection via `std::unique_ptr`
+- Modern C++17: `std::optional`, `std::variant`, RAII, value types, `[[nodiscard]]`
+- Computer strategies compared by measurement on simulated games
+- Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
+
 ### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
 Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
