@@ -46,7 +46,7 @@ Key features:
 
 ### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
-Distributed parking management system integrating STM32 firmware, BeagleBone Green, and multiple Embedded Linux applications.
+Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
 
 Key features:
 
@@ -54,7 +54,7 @@ Key features:
 - TCP/IP communication between embedded clients and an event-driven server
 - System V shared memory, shared queues, unnamed pipes, and POSIX signals
 - SQLite-based parking-session and tariff management
-- STM32-to-Linux integration over I²C with automatic startup through systemd
+- STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
 
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
