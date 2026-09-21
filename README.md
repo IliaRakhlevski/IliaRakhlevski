@@ -58,7 +58,7 @@ Key features:
 
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
-Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS and a Linux UDP test server.
+Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS and a Linux UDP test host.
 
 Key features:
 
