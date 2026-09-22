@@ -32,17 +32,18 @@ Key features:
 - Computer strategies compared by measurement on simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
-### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
+### 🧮 [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator)
 
-Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
+A C++17 evaluator for infix arithmetic expressions, converting them to Reverse Polish Notation via Dijkstra's Shunting Yard algorithm and evaluating on a value stack.
 
 Key features:
 
-- Interrupt-driven ICM-20948 IMU acquisition at approximately 102 samples per second
-- Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamp capture
-- Common TIM2 timebase for synchronizing IMU measurements with GNSS time
-- Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
-- Real-hardware validation with documented field-test output, photographs, and video
+- Table-driven token validation and operator precedence/associativity, instead of ad-hoc conditionals
+- Token represented as std::variant, with enum class used throughout
+- Every failure reported as a specific error code rather than a silently wrong number
+- Exact-zero divisor check, so results like 1 / 1e-20 remain valid
+- Verified against a reference implementation on hundreds of random expressions, with zero discrepancies
+- Continuous integration on GCC, Clang, and MSVC
 
 ### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
@@ -55,6 +56,18 @@ Key features:
 - System V shared memory, shared queues, unnamed pipes, and POSIX signals
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
+
+### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
+
+Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
+
+Key features:
+
+- Interrupt-driven ICM-20948 IMU acquisition at approximately 102 samples per second
+- Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamp capture
+- Common TIM2 timebase for synchronizing IMU measurements with GNSS time
+- Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
+- Real-hardware validation with documented field-test output, photographs, and video
 
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
