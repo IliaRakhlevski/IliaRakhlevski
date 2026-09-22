@@ -7,16 +7,20 @@ My background spans desktop and system-level software, real-time applications, a
 
 ## Technical Focus
 
-- **Languages:** C, C++
-- **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
+- **Languages:** C, Modern C++ (C++17)
+- **Modern C++:** C++17 idioms (variant, optional, RAII), smart pointers, templates
+- **Design Patterns:** Strategy, Observer, Dependency Injection
+- **Algorithms & Parsing:** table-driven validation, Shunting Yard, Reverse Polish Notation evaluation
+- **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors
+- **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
+- **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
 - **Real-Time & RTOS:** FreeRTOS, task scheduling, synchronization, inter-task communication
 - **Embedded Firmware:** bare-metal ARM, STM32 HAL/CMSIS, direct memory-mapped register access, interrupt- and DMA-driven firmware
 - **Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, systemd
+- **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
 - **Sensors & Actuators:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, SG90 servo motor, 28BYJ-48 stepper motor
 - **Hardware Interfaces & Control:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers, PWM
-- **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
-- **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
-- **Development Tools:** Git, GNU Make, STM32CubeIDE, STM32CubeMX, VS Code
+- **Development Tools:** Git, GNU Make, CMake, STM32CubeIDE, STM32CubeMX, VS Code, Visual Studio
 
 ## Featured Projects
 
