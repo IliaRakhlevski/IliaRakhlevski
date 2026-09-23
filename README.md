@@ -9,6 +9,7 @@ My background spans enterprise-level application software, system analysis and d
 - **Languages:** C, Modern C++ (C++17)
 - **Modern C++:** C++17 idioms (variant, optional, RAII), smart pointers, templates
 - **Design Patterns:** Strategy, Observer, Dependency Injection, Composite, Factory Method, Command
+- **AI-Assisted Development:** agentic and chat-based AI coding tools for implementation, architecture/design exploration, debugging and code review, with engineering validation of generated solutions
 - **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors
 - **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
