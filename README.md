@@ -8,8 +8,7 @@ My background spans enterprise-level application software, system analysis and d
 
 - **Languages:** C, Modern C++ (C++17)
 - **Modern C++:** C++17 idioms (variant, optional, RAII), smart pointers, templates
-- **Design Patterns:** Strategy, Observer, Dependency Injection
-- **Algorithms & Parsing:** table-driven validation, Shunting Yard, Reverse Polish Notation evaluation
+- **Design Patterns:** Strategy, Observer, Dependency Injection, Composite, Factory Method, Command
 - **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors
 - **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
