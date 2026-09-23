@@ -1,9 +1,8 @@
 # Hi, I'm Ilia 👋
 
-C/C++ Software Engineer with experience in large-scale software development, system analysis, debugging, and embedded systems.
+C/C++ Software Engineer with a strong, multidisciplinary track record spanning large-scale production software and hardware-oriented, real-time systems.
 
-My background spans desktop and system-level software, real-time applications, and embedded development. I am currently focusing on ARM-based embedded systems, FreeRTOS, and Embedded Linux through hands-on projects involving real hardware.
-
+My background spans enterprise-level application software, system analysis and debugging, and embedded/real-time development. Recent hands-on projects — spanning modern C++, Linux systems, and embedded real-time development — reflect this range across both application-level and hardware-facing work.
 
 ## Technical Focus
 
