@@ -6,7 +6,7 @@ My background spans enterprise-level application software, system analysis and d
 
 ## Technical Focus
 
-- **Languages:** C, Modern C++ (C++17)
+- **Languages:** Modern C++ (C++17), C
 - **Modern C++:** C++17 idioms (variant, optional, RAII), smart pointers, templates
 - **Design Patterns:** State, Strategy, Observer, Dependency Injection, Composite, Factory Method, Command
 - **AI-Assisted Development:** agentic and chat-based AI coding tools for implementation, architecture/design exploration, debugging and code review, with engineering validation of generated solutions
