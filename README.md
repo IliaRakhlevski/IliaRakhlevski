@@ -48,6 +48,18 @@ Key features:
 - Verified against a reference implementation on hundreds of random expressions, with zero discrepancies
 - Continuous integration on GCC, Clang, and MSVC
 
+### ☕ [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine)
+
+A coffee vending machine in C++17 — the classic object-oriented design interview task — built as a small library around a finite state machine, with a console application on top.
+
+Key features:
+
+- State pattern: one class per state, one virtual method per event, with a transition table as the specification
+- Library with no direct I/O: all output goes through a UI object writing to any `std::ostream`, so tests can read the "screen"
+- Coin escrow and change-making: exact refund of inserted coins, "Exact change only" when change cannot be paid
+- Tests for every row of the transition table
+- Continuous integration on GitHub Actions
+
 ### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
 Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
@@ -84,14 +96,3 @@ Key features:
 - UDP communication between the STM32 firmware and Linux server
 - Runtime statistics and persistent test results stored in SQLite
 
-### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
-
-Real-time emergency dispatch simulation built with FreeRTOS POSIX on Linux, featuring UDP networking, priority scheduling, SQLite persistence, and fault recovery.
-
-Key features:
-
-- FreeRTOS tasks, queues, mutexes, and event groups for concurrent event processing
-- Priority-based dispatch to specialized departments and independent vehicle tasks
-- UDP client-server communication with acknowledgements and completion reporting
-- SQLite event persistence, status tracking, and runtime statistics
-- Dynamic management of emergency vehicle availability, interrupted-event retries, and fault recovery, validated through a continuous 10-hour stress test
