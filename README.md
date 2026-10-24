@@ -15,7 +15,7 @@ Recent hands-on projects — spanning modern C++, Linux systems programming, and
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
 - **Real-Time & RTOS:** FreeRTOS, task scheduling, synchronization, inter-task communication
 - **Embedded Firmware:** bare-metal ARM, STM32 HAL/CMSIS, direct memory-mapped register access, interrupt- and DMA-driven firmware
-- **Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, systemd
+- **Linux & Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, systemd
 - **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
 - **Sensors & Actuators:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, SG90 servo motor, 28BYJ-48 stepper motor
 - **Hardware Interfaces & Control:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers, PWM
