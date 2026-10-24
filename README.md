@@ -42,7 +42,7 @@ A C++17 evaluator for infix arithmetic expressions, converting them to Reverse P
 Key features:
 
 - Table-driven token validation and operator precedence/associativity, instead of ad-hoc conditionals
-- Token represented as std::variant, with enum class used throughout
+- Token represented as `std::variant`, with enum class used throughout
 - Every failure reported as a specific error code rather than a silently wrong number
 - Exact-zero divisor check, so results like 1 / 1e-20 remain valid
 - Verified against a reference implementation on hundreds of random expressions, with zero discrepancies
