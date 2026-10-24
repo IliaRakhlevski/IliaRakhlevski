@@ -74,7 +74,7 @@ Key features:
 
 ### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
-Real-time road impact candidate detection and GNSS localization system built on STM32F756ZG and FreeRTOS.
+Real-time road impact candidate detection and GNSS localization system written in C, built on STM32F756ZG and FreeRTOS.
 
 Key features:
 
@@ -86,7 +86,7 @@ Key features:
 
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
-Automated hardware validation system for STM32F756ZG peripherals using FreeRTOS and a Linux UDP test host.
+Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
 
 Key features:
 
