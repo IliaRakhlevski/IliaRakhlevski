@@ -50,7 +50,7 @@ Key features:
 
 ### ☕ [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine)
 
-A coffee vending machine in C++17 — the classic object-oriented design interview task — built as a small library around a finite state machine, with a console application on top.
+A coffee vending machine in C++17, with the machine logic built around a finite state machine and kept separate from the console application.
 
 Key features:
 
