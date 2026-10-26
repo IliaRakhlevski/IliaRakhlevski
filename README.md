@@ -1,6 +1,6 @@
 # Hi, I'm Ilia 👋
 
-C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Recent projects in modern C++ (C++17) and Linux systems programming are publicly available on GitHub.
+C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Recent projects in modern C++ (C++17) and Linux systems programming are featured below.
 
 ## Technical Focus
 
