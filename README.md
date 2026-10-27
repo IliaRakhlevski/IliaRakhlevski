@@ -10,14 +10,10 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 - **AI-Assisted Development:** agentic and chat-based AI coding tools for implementation, architecture/design exploration, debugging and code review, with engineering validation of generated solutions
 - **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors
 - **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
-- **Networking & Storage:** TCP/IP, UDP, BSD sockets, LwIP, Ethernet, SQLite
-- **Real-Time & RTOS:** FreeRTOS, task scheduling, synchronization, inter-task communication
-- **Embedded Firmware:** bare-metal ARM, STM32 HAL/CMSIS, direct memory-mapped register access, interrupt- and DMA-driven firmware
-- **Linux & Embedded Linux:** Linux system programming, POSIX APIs, multi-process applications, systemd
-- **Hardware Platforms:** STM32 NUCLEO-F756ZG (ARM Cortex-M7), BeagleBone Green (TI Sitara AM3358 / ARM Cortex-A8), FriendlyARM Mini2440 (Samsung S3C2440 / ARM9)
-- **Sensors & Actuators:** Pimoroni ICM-20948 IMU, Quectel LC86G-LA GNSS receiver, SG90 servo motor, 28BYJ-48 stepper motor
-- **Hardware Interfaces & Control:** UART, SPI, I²C, ADC, DAC, GPIO, hardware timers, PWM
-- **Development Tools:** Git, GNU Make, CMake, STM32CubeIDE, STM32CubeMX, VS Code, Visual Studio
+- **Networking & Storage:** TCP/IP, UDP, BSD sockets, SQLite
+- **Linux Systems Programming:** POSIX APIs, multi-process applications, systemd
+- **Embedded & Real-Time:** ARM Cortex-M (STM32), FreeRTOS, Embedded Linux, bare-metal firmware, HAL/CMSIS, LwIP, interrupt- and DMA-driven design; UART, SPI, I²C, ADC, DAC, GPIO, PWM
+- **Development Tools:** Git, GNU Make, CMake, SVN, VS Code, Visual Studio
 
 ## Featured Projects
 
