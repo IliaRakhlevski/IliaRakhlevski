@@ -30,18 +30,6 @@ Key features:
 - Computer strategies compared by measurement on simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
-### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
-
-Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
-
-Key features:
-
-- Multi-process Linux architecture with POSIX threads and synchronization
-- TCP/IP communication between embedded clients and an event-driven server
-- System V shared memory, shared queues, unnamed pipes, and POSIX signals
-- SQLite-based parking-session and tariff management
-- STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
-
 ### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
 Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
@@ -53,6 +41,18 @@ Key features:
 - Fault Manager with automatic retry of interrupted events, and Shift Manager for dynamic vehicle availability
 - UDP client-server communication with acknowledgements and completion reports
 - SQLite event persistence and runtime statistics under stress testing
+
+### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
+
+Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
+
+Key features:
+
+- Multi-process Linux architecture with POSIX threads and synchronization
+- TCP/IP communication between embedded clients and an event-driven server
+- System V shared memory, shared queues, unnamed pipes, and POSIX signals
+- SQLite-based parking-session and tariff management
+- STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
 
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
