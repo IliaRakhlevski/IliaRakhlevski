@@ -42,6 +42,18 @@ Key features:
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
 
+### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
+
+Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
+
+Key features:
+
+- Independent FreeRTOS tasks per vehicle, with department-specific priority queues
+- Synchronization with queues, mutexes and event groups
+- Fault Manager with automatic retry of interrupted events, and Shift Manager for dynamic vehicle availability
+- UDP client-server communication with acknowledgements and completion reports
+- SQLite event persistence and runtime statistics under stress testing
+
 ### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
 Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
