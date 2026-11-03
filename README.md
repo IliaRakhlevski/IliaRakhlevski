@@ -1,6 +1,6 @@
 # Hi, I'm Ilia 👋
 
-C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Recent projects in modern C++ (C++17) and Linux systems programming are featured below.
+C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Recent projects in modern C++ (C++17), Linux systems programming, embedded firmware and Python/PyTorch are featured below.
 
 ## Technical Focus
 
@@ -30,31 +30,6 @@ Key features:
 - Computer strategies compared by measurement on simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
-### 🧮 [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator)
-
-A C++17 evaluator for infix arithmetic expressions, converting them to Reverse Polish Notation via Dijkstra's Shunting Yard algorithm and evaluating on a value stack.
-
-Key features:
-
-- Table-driven token validation and operator precedence/associativity, instead of ad-hoc conditionals
-- Token represented as `std::variant`, with enum class used throughout
-- Every failure reported as a specific error code rather than a silently wrong number
-- Exact-zero divisor check, so results like 1 / 1e-20 remain valid
-- Verified against a reference implementation on hundreds of random expressions, with zero discrepancies
-- Continuous integration on GCC, Clang, and MSVC
-
-### ☕ [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine)
-
-A coffee vending machine in C++17, with the machine logic built around a finite state machine and kept separate from the console application.
-
-Key features:
-
-- State pattern: one class per state, one virtual method per event, with a transition table as the specification
-- Library with no direct I/O: all output goes through a UI object writing to any `std::ostream`, so tests can read the "screen"
-- Coin escrow and change-making: exact refund of inserted coins, "Exact change only" when change cannot be paid
-- Tests for every row of the transition table
-- Continuous integration on GitHub Actions
-
 ### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
 Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
@@ -66,6 +41,18 @@ Key features:
 - System V shared memory, shared queues, unnamed pipes, and POSIX signals
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
+
+### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
+
+Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
+
+Key features:
+
+- Concurrent validation of UART, SPI, I²C, ADC, DAC, and timer peripherals
+- Interrupt- and DMA-based test modes
+- Automated PASS/FAIL evaluation with random payload generation and CRC verification
+- UDP communication between the STM32 firmware and Linux server
+- Runtime statistics and persistent test results stored in SQLite
 
 ### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
@@ -79,15 +66,14 @@ Key features:
 - Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
 - Real-hardware validation with documented field-test output, photographs, and video
 
-### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
+### 🧠 [Image Classification with ResNet18](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18)
 
-Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
+Image classification of 18 character classes from a public Kaggle dataset in Python and PyTorch, using transfer learning on a pretrained ResNet18.
 
 Key features:
 
-- Concurrent validation of UART, SPI, I²C, ADC, DAC, and timer peripherals
-- Interrupt- and DMA-based test modes
-- Automated PASS/FAIL evaluation with random payload generation and CRC verification
-- UDP communication between the STM32 firmware and Linux server
-- Runtime statistics and persistent test results stored in SQLite
+- Transfer learning: pretrained layers frozen, new classification head, `layer3` and `layer4` fine-tuned
+- Dataset split that keeps all variants of the same source image in one subset, to prevent leakage between training, validation and test sets
+- Reproducibility checked across several random seeds
+- 91.7% test accuracy, with a normalized confusion matrix and analysis of highly confident misclassifications
 
