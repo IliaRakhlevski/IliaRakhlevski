@@ -87,5 +87,5 @@ Key features:
 - Signal preprocessing with NumPy/SciPy: resampling to 8 kHz, normalization to [-1, 1], fixed 4000-sample frames with zero padding
 - Two-level peak envelope extraction in the time domain, chosen over spectral features to keep computation low
 - Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
-- All test recordings classified correctly; limitations of the small dataset and possible improvements documented in the README
+- Drill and jackhammer recognized reliably; error analysis of hammer/jackhammer confusion and dataset limitations documented in the README
 
