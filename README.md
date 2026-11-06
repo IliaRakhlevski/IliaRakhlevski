@@ -78,14 +78,14 @@ Key features:
 - Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
 - Real-hardware validation with documented field-test output, photographs, and video
 
-### 🧠 [Image Classification with ResNet18](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18)
+### 🔊 [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods)
 
-Image classification of 18 character classes from a public Kaggle dataset in Python and PyTorch, using transfer learning on a pretrained ResNet18.
+Classification of tool sounds (hammer, jackhammer, drill) in Python, designed for real-time use on resource-constrained hardware: time-domain signal processing with a lightweight 2D CNN in Keras/TensorFlow.
 
 Key features:
 
-- Transfer learning: pretrained layers frozen, new classification head, `layer3` and `layer4` fine-tuned
-- Dataset split that keeps all variants of the same source image in one subset, to prevent leakage between training, validation and test sets
-- Reproducibility checked across several random seeds
-- 91.7% test accuracy, with a normalized confusion matrix and analysis of highly confident misclassifications
+- Signal preprocessing with NumPy/SciPy: resampling to 8 kHz, normalization to [-1, 1], fixed 4000-sample frames with zero padding
+- Two-level peak envelope extraction in the time domain, chosen over spectral features to keep computation low
+- Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
+- All test recordings classified correctly; limitations of the small dataset and possible improvements documented in the README
 
