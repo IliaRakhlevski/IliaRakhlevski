@@ -111,5 +111,6 @@ Key features:
 
 ## Contact
 
+- Email: [rakhlevski@gmail.com](mailto:rakhlevski@gmail.com)
 - LinkedIn: [linkedin.com/in/ilia-rakhlevski](https://www.linkedin.com/in/ilia-rakhlevski/)
 
