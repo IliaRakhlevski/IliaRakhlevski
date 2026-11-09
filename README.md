@@ -54,7 +54,7 @@ flowchart LR
     subgraph SRV["Linux server"]
         TCP["Event-driven<br/>TCP server"]
         PROC["Worker processes<br/>& POSIX threads"]
-        IPC["Shared memory · queues<br/>pipes · signals"]
+        IPC["Shared memory<br/>queues · pipes<br/>signals"]
         DB[("SQLite<br/>sessions & tariffs")]
     end
     FW -- "I²C" --> CL
