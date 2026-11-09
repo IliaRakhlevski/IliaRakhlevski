@@ -68,7 +68,7 @@ Automated hardware validation system written in C for STM32F756ZG peripherals, u
 
 Key features:
 
-- Concurrent validation of UART, SPI, I²C, ADC, DAC, and timer peripherals
+- Concurrent validation of UART, SPI, I²C, ADC (via DAC loopback), and timer peripherals
 - Interrupt- and DMA-based test modes
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
 - UDP communication between the STM32 firmware and Linux server
