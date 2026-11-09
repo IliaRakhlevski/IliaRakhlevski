@@ -78,6 +78,8 @@ Key features:
 
 Real-time road impact candidate detection and GNSS localization system written in C, built on STM32F756ZG and FreeRTOS.
 
+<a href="https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector"><img src="https://raw.githubusercontent.com/IliaRakhlevski/STM32-Road-Impact-Detector/main/Docs/Images/overview.png" alt="STM32 Road Impact Detector overview" width="800"></a>
+
 Key features:
 
 - Interrupt-driven ICM-20948 IMU acquisition at approximately 102 samples per second
