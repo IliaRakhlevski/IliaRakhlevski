@@ -18,7 +18,9 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 
 ## Featured Projects
 
-### 🚢 [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle)
+### Modern C++
+
+#### 🚢 [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle)
 
 Battleship in C++17 with the classic 10-ship rules (ships may not touch, a hit earns another shot), designed as a reusable game-rules library with a separate console front end.
 
@@ -32,21 +34,9 @@ Key features:
 - Computer strategies compared by measurement on simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
-### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
+### Linux Systems & Real-Time
 
-Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
-
-<a href="https://github.com/IliaRakhlevski/City-Emergency-Dispatch"><img src="https://raw.githubusercontent.com/IliaRakhlevski/City-Emergency-Dispatch/main/Docs/images/overview.png" alt="City Emergency Dispatch overview" width="800"></a>
-
-Key features:
-
-- Independent FreeRTOS tasks per vehicle, with department-specific priority queues
-- Synchronization with queues, mutexes and event groups
-- Fault Manager with automatic retry of interrupted events, and Shift Manager for dynamic vehicle availability
-- UDP client-server communication with acknowledgements and completion reports
-- SQLite event persistence and runtime statistics under stress testing
-
-### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
+#### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
 Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
 
@@ -60,7 +50,23 @@ Key features:
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
 
-### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
+#### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
+
+Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
+
+<a href="https://github.com/IliaRakhlevski/City-Emergency-Dispatch"><img src="https://raw.githubusercontent.com/IliaRakhlevski/City-Emergency-Dispatch/main/Docs/images/overview.png" alt="City Emergency Dispatch overview" width="800"></a>
+
+Key features:
+
+- Independent FreeRTOS tasks per vehicle, with department-specific priority queues
+- Synchronization with queues, mutexes and event groups
+- Fault Manager with automatic retry of interrupted events, and Shift Manager for dynamic vehicle availability
+- UDP client-server communication with acknowledgements and completion reports
+- SQLite event persistence and runtime statistics under stress testing
+
+### Embedded Firmware (STM32)
+
+#### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
 Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
 
@@ -74,7 +80,7 @@ Key features:
 - UDP communication between the STM32 firmware and Linux server
 - Runtime statistics and persistent test results stored in SQLite
 
-### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
+#### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
 Real-time road impact candidate detection and GNSS localization system written in C, built on STM32F756ZG and FreeRTOS.
 
@@ -88,7 +94,9 @@ Key features:
 - Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
 - Real-hardware validation with documented field-test output, photographs, and video
 
-### 🔊 [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods)
+### Machine Learning
+
+#### 🔊 [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods)
 
 Classification of tool sounds (hammer, jackhammer, drill) in Python, designed for real-time use on resource-constrained hardware: time-domain signal processing with a lightweight 2D CNN in Keras/TensorFlow.
 
@@ -100,4 +108,8 @@ Key features:
 - Two-level peak envelope extraction in the time domain, chosen over spectral features to keep computation low
 - Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
 - Drill and jackhammer recognized reliably; error analysis of hammer/jackhammer confusion and dataset limitations documented in the README
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/ilia-rakhlevski](https://www.linkedin.com/in/ilia-rakhlevski/)
 
