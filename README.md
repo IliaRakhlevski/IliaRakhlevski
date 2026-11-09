@@ -43,7 +43,26 @@ Key features:
 - SQLite event persistence and runtime statistics under stress testing
 
 ### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
-
+```mermaid
+flowchart LR
+    subgraph HW["STM32"]
+        FW["Firmware<br/>sensors & barrier"]
+    end
+    subgraph BB["BeagleBone Green<br/>Embedded Linux"]
+        CL["Client<br/>started by systemd"]
+    end
+    subgraph SRV["Linux server"]
+        TCP["Event-driven<br/>TCP server"]
+        PROC["Worker processes<br/>& POSIX threads"]
+        IPC["Shared memory · queues<br/>pipes · signals"]
+        DB[("SQLite<br/>sessions & tariffs")]
+    end
+    FW -- "I²C" --> CL
+    CL -- "TCP/IP" --> TCP
+    TCP --> PROC
+    PROC <--> IPC
+    PROC --> DB
+```
 Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
 
 Key features:
