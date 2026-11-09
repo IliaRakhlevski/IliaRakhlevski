@@ -36,6 +36,8 @@ Key features:
 
 Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
 
+<a href="https://github.com/IliaRakhlevski/City-Emergency-Dispatch"><img src="https://raw.githubusercontent.com/IliaRakhlevski/City-Emergency-Dispatch/main/Docs/images/overview.png" alt="City Emergency Dispatch overview" width="800"></a>
+
 Key features:
 
 - Independent FreeRTOS tasks per vehicle, with department-specific priority queues
