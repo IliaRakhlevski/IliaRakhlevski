@@ -92,6 +92,8 @@ Key features:
 
 Classification of tool sounds (hammer, jackhammer, drill) in Python, designed for real-time use on resource-constrained hardware: time-domain signal processing with a lightweight 2D CNN in Keras/TensorFlow.
 
+<a href="https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods/main/images/overview.png" alt="Tool Sound Classification overview" width="800"></a>
+
 Key features:
 
 - Signal preprocessing with NumPy/SciPy: resampling to 8 kHz, normalization to [-1, 1], fixed 4000-sample frames with zero padding
