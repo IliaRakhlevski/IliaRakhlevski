@@ -22,6 +22,8 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 
 Battleship in C++17 with the classic 10-ship rules (ships may not touch, a hit earns another shot), designed as a reusable game-rules library with a separate console front end.
 
+<a href="https://github.com/IliaRakhlevski/Sea-Battle"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Sea-Battle/master/docs/images/overview.png" alt="Sea Battle overview" width="800"></a>
+
 Key features:
 
 - Rules library with no I/O: board, fleet placement, shooting and game session are independent of the UI
