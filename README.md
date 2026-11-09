@@ -64,6 +64,8 @@ Key features:
 
 Automated hardware validation system written in C for STM32F756ZG peripherals, using FreeRTOS and a Linux UDP test host.
 
+<a href="https://github.com/IliaRakhlevski/STM32-Peripheral-Tester"><img src="https://raw.githubusercontent.com/IliaRakhlevski/STM32-Peripheral-Tester/main/docs/images/overview.png" alt="STM32 Peripheral Tester overview" width="800"></a>
+
 Key features:
 
 - Concurrent validation of UART, SPI, I²C, ADC, DAC, and timer peripherals
