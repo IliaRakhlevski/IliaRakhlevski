@@ -109,19 +109,19 @@ Key features:
 - Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
 - Drill and jackhammer recognized reliably; error analysis of hammer/jackhammer confusion and dataset limitations documented in the README
 
-#### 🚘 [License Plate Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition)
+#### 📹 [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos)
 
-Recognition of Israeli car license plate numbers in Python with PyTorch: a Faster R-CNN detects each digit, and the digits are assembled into the full car number.
+M.Sc. final project: detection of physical violence of adults against children in surveillance videos with a CNN + LSTM model in Python and Keras/TensorFlow, trained on an own staged dataset.
 
-<a href="https://github.com/IliaRakhlevski/License-Plates-Recognition"><img src="https://raw.githubusercontent.com/IliaRakhlevski/License-Plates-Recognition/main/images/overview.png" alt="License Plate Recognition overview" width="800"></a>
+<a href="https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos/main/images/overview.png" alt="Detection of Violence Against Children in Videos overview" width="800"></a>
 
 Key features:
 
-- Self-annotated dataset: 500 car images, about 3,700 digit bounding boxes labeled in VGG Image Annotator
-- Faster R-CNN (ResNet-50 FPN, COCO-pretrained) fine-tuned on 10 digit classes; trained on Kaggle
-- Image preprocessing with OpenCV: aspect-preserving resize and padding to 900 × 500
-- Two metrics on 50 test plates: digit recognition 98.1%, full-plate recognition 86%
-- Error analysis: an over-aggressive NMS threshold removed adjacent digits; fixing it raised full-plate accuracy from 66% to 86% without retraining
+- Own dataset of about 8,000 20-frame clips recorded with reborn dolls instead of children; both classes are recorded in the same scene, so the model learns from the movement only
+- ResNet152V2 (ImageNet-pretrained, frozen) extracts the features of each frame; a bidirectional LSTM classifies the movement over 20 frames
+- Sliding-window processing of long surveillance videos, with merging of the detected violent fragments
+- Tested on 120 videos (45,850 frames) of four types: staged, real with violence, real without violence, empty rooms
+- 86% of violent frames detected and 91% of non-violent frames classified correctly; real test videos are kept out of the repository for privacy
 
 ## Contact
 
