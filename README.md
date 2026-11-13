@@ -109,6 +109,20 @@ Key features:
 - Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
 - Drill and jackhammer recognized reliably; error analysis of hammer/jackhammer confusion and dataset limitations documented in the README
 
+#### 🚘 [License Plate Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition)
+
+Recognition of Israeli car license plate numbers in Python with PyTorch: a Faster R-CNN detects each digit, and the digits are assembled into the full car number.
+
+<a href="https://github.com/IliaRakhlevski/License-Plates-Recognition"><img src="https://raw.githubusercontent.com/IliaRakhlevski/License-Plates-Recognition/main/images/overview.png" alt="License Plate Recognition overview" width="800"></a>
+
+Key features:
+
+- Self-annotated dataset: 500 car images, about 3,700 digit bounding boxes labeled in VGG Image Annotator
+- Faster R-CNN (ResNet-50 FPN, COCO-pretrained) fine-tuned on 10 digit classes; trained on Kaggle
+- Image preprocessing with OpenCV: aspect-preserving resize and padding to 900 × 500
+- Two metrics on 50 test plates: digit recognition 98.1%, full-plate recognition 86%
+- Error analysis: an over-aggressive NMS threshold removed adjacent digits; fixing it raised full-plate accuracy from 66% to 86% without retraining
+
 ## Contact
 
 - Email: [rakhlevski@gmail.com](mailto:rakhlevski@gmail.com)
