@@ -98,14 +98,14 @@ Key features:
 
 #### 🔊 [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods)
 
-Classification of tool sounds (hammer, jackhammer, drill) in Python, designed for real-time use on resource-constrained hardware: time-domain signal processing with a lightweight 2D CNN in Keras/TensorFlow.
+Classification of tool sounds (hammer, jackhammer, drill) in Python, designed for real-time classification on a standard PC (CPU only): time-domain signal processing with a 2D CNN in Keras/TensorFlow.
 
 <a href="https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods/main/images/overview.png" alt="Tool Sound Classification overview" width="800"></a>
 
 Key features:
 
 - Signal preprocessing with NumPy/SciPy: resampling to 8 kHz, normalization to [-1, 1], fixed 4000-sample frames with zero padding
-- Two-level peak envelope extraction in the time domain, chosen over spectral features to keep computation low
+- Two-level peak envelope extraction in the time domain as a simple, interpretable signal representation
 - Sliding-window classification with 50% overlap, a weak-signal threshold and per-file majority voting
 - Drill and jackhammer recognized reliably; error analysis of hammer/jackhammer confusion and dataset limitations documented in the README
 
