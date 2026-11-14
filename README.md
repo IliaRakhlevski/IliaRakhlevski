@@ -1,6 +1,6 @@
 # Hi, I'm Ilia 👋
 
-C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Recent projects in modern C++ (C++17), Linux systems programming, STM32/FreeRTOS firmware, and Python/PyTorch are featured below.
+C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Featured below: recent projects in modern C++ (C++17), Linux systems programming and STM32/FreeRTOS firmware, along with machine learning projects in Python (signal processing and computer vision).
 
 ## Technical Focus
 
@@ -14,6 +14,8 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, SQLite
 - **Linux Systems Programming:** POSIX APIs, multi-process applications, systemd
 - **Embedded & Real-Time:** ARM Cortex-M (STM32), FreeRTOS, Embedded Linux, bare-metal firmware, HAL/CMSIS, LwIP, interrupt- and DMA-driven design; UART, SPI, I²C, ADC, DAC, GPIO, PWM
+- **Machine Learning & Deep Learning:** CNNs, transfer learning (ResNet), object detection (Faster R-CNN), video classification (CNN + LSTM); dataset creation and annotation, data augmentation, leakage-aware data splits, error analysis
+- **Signal & Image Processing:** audio preprocessing (resampling, normalization, peak envelopes, sliding windows), image preprocessing with OpenCV 
 - **Development Tools:** Git, GNU Make, CMake, SVN, VS Code, Visual Studio
 
 ## Featured Projects
