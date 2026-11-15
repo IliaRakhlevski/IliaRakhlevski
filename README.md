@@ -5,7 +5,6 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 ## Technical Focus
 
 - **Languages:** Modern C++ (C++17), C, Python
-- **Modern C++:** C++17 idioms (variant, optional, RAII), smart pointers, templates
 - **Python:** NumPy, SciPy, Pandas, PyTorch, TensorFlow/Keras, OpenCV, scikit-learn, Pygame
 - **Design Patterns:** State, Strategy, Observer, Dependency Injection, Composite, Factory Method, Command
 - **AI-Assisted Development:** agentic and chat-based AI coding tools for implementation, architecture/design exploration, debugging and code review, with engineering validation of generated solutions
