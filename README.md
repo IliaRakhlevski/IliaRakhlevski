@@ -50,7 +50,7 @@ Key features:
 - System V shared memory, shared queues, unnamed pipes, and POSIX signals
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
-- CI for all three platforms: Linux build and library smoke tests (also under AddressSanitizer and UBSan), BeagleBone ARM cross-build, STM32 firmware build
+- CI for all three platforms: Linux build and library smoke tests (also under ASan and UBSan), BeagleBone ARM cross-build, STM32 firmware build
 
 #### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
