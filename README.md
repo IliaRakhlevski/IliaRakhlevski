@@ -8,7 +8,7 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 - **Python:** NumPy, SciPy, Pandas, PyTorch, TensorFlow/Keras, OpenCV, scikit-learn, Pygame
 - **Design Patterns:** State, Strategy, Observer, Dependency Injection, Composite, Factory Method, Command
 - **AI-Assisted Development:** agentic and chat-based AI coding tools for implementation, architecture/design exploration, debugging and code review, with engineering validation of generated solutions
-- **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors
+- **Testing & CI:** unit testing, reference-implementation verification, GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors, cross-compilation for ARM Cortex-M and Embedded Linux, end-to-end smoke tests
 - **Concurrency & IPC:** POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals
 - **Networking & Storage:** TCP/IP, UDP, BSD sockets, SQLite
 - **Linux Systems Programming:** POSIX APIs, multi-process applications, systemd
@@ -50,6 +50,7 @@ Key features:
 - System V shared memory, shared queues, unnamed pipes, and POSIX signals
 - SQLite-based parking-session and tariff management
 - STM32-to-BeagleBone integration over I²C, with the client started automatically by systemd
+- CI for all three platforms: Linux build and library smoke tests (also under AddressSanitizer and UBSan), BeagleBone ARM cross-build, STM32 firmware build
 
 #### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
@@ -64,6 +65,7 @@ Key features:
 - Fault Manager with automatic retry of interrupted events, and Shift Manager for dynamic vehicle availability
 - UDP client-server communication with acknowledgements and completion reports
 - SQLite event persistence and runtime statistics under stress testing
+- CI: build and an end-to-end smoke test that runs the client and the server together over UDP and checks the event statistics
 
 ### Embedded Firmware (STM32)
 
@@ -80,6 +82,7 @@ Key features:
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
 - UDP communication between the STM32 firmware and Linux server
 - Runtime statistics and persistent test results stored in SQLite
+- CI: firmware build (FreeRTOS + LwIP) with arm-none-eabi-gcc and Linux server build
 
 #### 🛣️ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector)
 
@@ -94,6 +97,7 @@ Key features:
 - Common TIM2 timebase for synchronizing IMU measurements with GNSS time
 - Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
 - Real-hardware validation with documented field-test output, photographs, and video
+- CI: firmware build with arm-none-eabi-gcc
 
 ### Machine Learning
 
