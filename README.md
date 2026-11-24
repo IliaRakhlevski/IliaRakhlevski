@@ -35,7 +35,7 @@ Key features:
 - Computer strategies compared by measurement on simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
-### Linux Systems & Real-Time
+### Linux Systems & Concurrency
 
 #### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
@@ -54,7 +54,7 @@ Key features:
 
 #### 🚨 [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch)
 
-Real-time emergency dispatch simulation in C on FreeRTOS POSIX (Linux): a server generates city events and a client processes them with priority-based vehicle tasks.
+Emergency dispatch simulation in C on FreeRTOS (POSIX port on Linux): a server generates city events and a client dispatches them through priority-based event queues to vehicle tasks.
 
 <a href="https://github.com/IliaRakhlevski/City-Emergency-Dispatch"><img src="https://raw.githubusercontent.com/IliaRakhlevski/City-Emergency-Dispatch/main/Docs/images/overview.png" alt="City Emergency Dispatch overview" width="800"></a>
 
@@ -67,7 +67,7 @@ Key features:
 - SQLite event persistence and runtime statistics under stress testing
 - CI: build and an end-to-end smoke test that runs the client and the server together over UDP and checks the event statistics
 
-### Embedded Firmware (STM32)
+### Embedded Real-Time Firmware (STM32 + FreeRTOS)
 
 #### 🔧 [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester)
 
