@@ -14,7 +14,7 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 - **Linux Systems Programming:** POSIX APIs, multi-process applications, systemd
 - **Embedded & Real-Time:** ARM Cortex-M (STM32), FreeRTOS, Embedded Linux, bare-metal firmware, HAL/CMSIS, LwIP, interrupt- and DMA-driven design; UART, SPI, I²C, ADC, DAC, GPIO, PWM
 - **Machine Learning & Deep Learning:** CNNs, transfer learning (ResNet), object detection (Faster R-CNN), video classification (CNN + LSTM); dataset creation and annotation, data augmentation, leakage-aware data splits, error analysis
-- **Signal & Image Processing:** audio preprocessing (resampling, normalization, peak envelopes, sliding windows), image preprocessing with OpenCV 
+- **Signal, Image & Video Processing:** audio preprocessing (resampling, normalization, peak envelopes, sliding windows); image preprocessing with OpenCV (resizing with padding, normalization, data augmentation); video processing (frame extraction, fixed-length clips, sliding-window analysis of long videos)
 - **Development Tools:** Git, GNU Make, CMake, SVN, VS Code, Visual Studio
 
 ## Featured Projects
