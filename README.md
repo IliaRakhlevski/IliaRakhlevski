@@ -2,6 +2,35 @@
 
 C/C++ Software Engineer with a strong track record in large-scale production desktop applications. Experienced in complex data processing, performance optimization, and debugging in long-lived codebases. Complemented by a multidisciplinary hardware/software background in embedded firmware for security and industrial systems. Featured below: recent projects in modern C++ (C++17), Linux systems programming and STM32/FreeRTOS firmware, along with machine learning projects in Python (signal processing and computer vision).
 
+## Projects by Area
+
+⭐ — featured below with details.
+
+**Embedded, Real-Time & Linux (C, C++)**
+- ⭐ [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector) — FreeRTOS, IMU + GNSS, PPS timing on STM32
+- ⭐ [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester) — FreeRTOS firmware testing UART, SPI, I²C, ADC with a Linux UDP host
+- ⭐ [Parking System](https://github.com/IliaRakhlevski/Parking-System) — distributed system: STM32, BeagleBone (Embedded Linux), multi-process Linux server
+- ⭐ [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch) — FreeRTOS multitasking on Linux, UDP, priority queues
+- [Step and Servo Motors Control](https://github.com/IliaRakhlevski/Step-Servo-Motors-Control) — bare-metal ARM9, register-level PWM, GPIO, interrupts, ADC; no HAL
+
+**C/C++ Software Design**
+- ⭐ [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) — C++17 game-rules library, Strategy and Observer, measured computer strategies
+- [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine) — C++17 State-pattern FSM with tests for every transition
+- [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator) — C++17 Shunting Yard to RPN, stack evaluation
+- [Custom Memory Manager in C](https://github.com/IliaRakhlevski/Custom-Memory-Manager-in-C) — fixed-pool allocator without malloc, heap-corruption checks
+
+**Computer Vision & Deep Learning**
+- ⭐ [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos) — M.Sc. final project, CNN + LSTM, own dataset
+- [Digits Recognition](https://github.com/IliaRakhlevski/Digits-Recognition) — HOG and a neural network written from scratch in C++
+- [License Plates Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition) — Faster R-CNN in PyTorch, self-annotated dataset
+- [Traffic Signs Detection](https://github.com/IliaRakhlevski/Traffic-Signs-Detection) — Mask R-CNN detection and recognition
+- [One Piece Characters Classification](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18) — transfer learning with ResNet18 in PyTorch
+
+**Machine Learning, Audio & Simulation (Python)**
+- ⭐ [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods) — audio classification, peak envelopes and a 2D CNN
+- [Speed Dating Experiment](https://github.com/IliaRakhlevski/Speed-Dating-Experiment) — data analysis, five scikit-learn classifiers
+- [Autonomous Road Merging Simulation](https://github.com/IliaRakhlevski/Simulation-of-Autonomous-Road-Merging) — Pygame, FSM vehicle control, crashes cut from 45% to 6%
+
 ## Technical Focus
 
 - **Languages:** Modern C++ (C++17), C, Python
