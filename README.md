@@ -39,7 +39,7 @@ Key features:
 
 #### 🚗 [Parking System](https://github.com/IliaRakhlevski/Parking-System)
 
-Distributed parking management system in C and C++ integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
+Distributed parking management system in C and C++11 integrating STM32 firmware, a BeagleBone Green client on Embedded Linux, and multi-process server applications on Linux.
 
 <a href="https://github.com/IliaRakhlevski/Parking-System"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Parking-System/main/Docs/Images/parking-system-overview.png" alt="Parking System overview" width="800"></a>
 
