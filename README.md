@@ -7,7 +7,7 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 ⭐ — featured below with details.
 
 **C/C++ Software Design**
-- [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) ⭐ — **C++17** · game-rules library, Strategy and Observer design patterns, measured computer strategies
+- [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) ⭐ — **C++17** · game-rules library, Strategy and Observer design patterns, targeting strategies compared over 20,000 simulated games
 - [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine) — **C++17** · State-pattern FSM with tests for every transition
 - [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator) — **C++17** · Shunting Yard to RPN, stack evaluation
 - [Custom Memory Manager in C](https://github.com/IliaRakhlevski/Custom-Memory-Manager-in-C) — **C11** · fixed-pool allocator without malloc, heap-corruption checks
@@ -15,20 +15,20 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 **Embedded, Real-Time & Linux**
 - [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector) ⭐ — **C** · FreeRTOS, IMU + GNSS, PPS timing on STM32
 - [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester) ⭐ — **C** · FreeRTOS firmware testing UART, SPI, I²C, timer and ADC (via DAC loopback) with a Linux UDP host
+- [Step and Servo Motors Control](https://github.com/IliaRakhlevski/Step-Servo-Motors-Control) — **C** · bare-metal ARM9, register-level PWM, GPIO, interrupts, ADC; no HAL
 - [Parking System](https://github.com/IliaRakhlevski/Parking-System) ⭐ — **C, C++11** · distributed system: STM32, BeagleBone (Embedded Linux) and a multi-process Linux server, linked by I²C and TCP
 - [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch) ⭐ — **C** · FreeRTOS multitasking on Linux, UDP, priority queues
-- [Step and Servo Motors Control](https://github.com/IliaRakhlevski/Step-Servo-Motors-Control) — **C** · bare-metal ARM9, register-level PWM, GPIO, interrupts, ADC; no HAL
 
 **Computer Vision & Deep Learning**
-- [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos) ⭐ — **Python** · M.Sc. final project, CNN + LSTM, own dataset
-- [Digits Recognition](https://github.com/IliaRakhlevski/Digits-Recognition) — **C++** · HOG and a neural network written from scratch
+- [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos) ⭐ — **Python** · M.Sc. final project, CNN + LSTM, staged dataset recorded with dolls
 - [License Plates Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition) — **Python** · Faster R-CNN in PyTorch, self-annotated dataset
 - [Traffic Signs Detection](https://github.com/IliaRakhlevski/Traffic-Signs-Detection) — **Python** · Mask R-CNN in Keras/TensorFlow, self-annotated polygon masks
-- [One Piece Characters Classification](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18) — **Python** · transfer learning with ResNet18 in PyTorch
+- [One Piece Characters Classification](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18) — **Python** · fine-tuned ResNet18 in PyTorch, 18 classes, leakage-aware data split, three seeds
+- [Digits Recognition](https://github.com/IliaRakhlevski/Digits-Recognition) — **C++** · HOG and a neural network written from scratch
 
 **Machine Learning, Audio & Simulation**
 - [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods) ⭐ — **Python** · audio classification, peak envelopes and a 2D CNN
-- [Speed Dating Experiment](https://github.com/IliaRakhlevski/Speed-Dating-Experiment) — **Python** · data analysis, five scikit-learn classifiers
+- [Speed Dating Experiment](https://github.com/IliaRakhlevski/Speed-Dating-Experiment) — **Python** · exploratory data analysis (EDA), five scikit-learn classifiers, leave-one-wave-out cross-validation
 - [Autonomous Road Merging Simulation](https://github.com/IliaRakhlevski/Simulation-of-Autonomous-Road-Merging) — **Python** · Pygame, FSM vehicle control, crashes cut from 45% to 6%
 
 ## Technical Focus
