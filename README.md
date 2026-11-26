@@ -4,7 +4,7 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 
 ## Projects by Area
 
-⭐ — featured below with details.
+⭐ — [featured below with details](#featured-projects).
 
 **C/C++ Software Design**
 - [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) ⭐ — **C++17** · game-rules library, Strategy and Observer design patterns, targeting strategies compared over 20,000 simulated games
