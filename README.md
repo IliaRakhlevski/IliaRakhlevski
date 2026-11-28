@@ -38,17 +38,17 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 | Area | Technologies |
 |---|---|
 | **Languages** | Modern C++ (C++17), C, Python |
-| **Software Design** | OOD; design patterns: State, Strategy, Observer, Composite, Factory Method, Command; dependency injection |
-| **Concurrency & IPC** | POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals |
-| **Linux Systems** | POSIX APIs, multi-process applications, systemd |
-| **Networking & Storage** | TCP/IP, UDP, BSD sockets, SQLite |
-| **Embedded & Real-Time** | ARM Cortex-M (STM32), FreeRTOS, Embedded Linux, bare-metal, HAL/CMSIS, LwIP; interrupts and DMA; UART, SPI, I²C, ADC, DAC, GPIO, PWM |
-| **Testing & CI** | Unit tests, reference-implementation checks, end-to-end smoke tests; GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors; cross-compilation for ARM |
-| **Machine Learning** | CNNs, transfer learning (ResNet), object detection (Faster R-CNN), video classification (CNN + LSTM); dataset creation and annotation, augmentation, leakage-aware splits, error analysis |
-| **Signal & Image Processing** | Audio: resampling, normalization, peak envelopes, sliding windows; images and video: OpenCV preprocessing, frame extraction, sliding-window analysis |
-| **Python Libraries** | NumPy, SciPy, Pandas, scikit-learn, PyTorch, TensorFlow/Keras, OpenCV, Pygame |
+| **Software&nbsp;Design** | OOD; design patterns: State, Strategy, Observer, Composite, Factory Method, Command; dependency injection |
+| **Concurrency&nbsp;&amp;&nbsp;IPC** | POSIX threads, processes, mutexes, semaphores, condition variables, shared memory, pipes, signals |
+| **Linux&nbsp;Systems** | POSIX APIs, multi-process applications, systemd |
+| **Networking&nbsp;&amp;&nbsp;Storage** | TCP/IP, UDP, BSD sockets, SQLite |
+| **Embedded&nbsp;&amp;&nbsp;Real‑Time** | ARM Cortex-M (STM32), FreeRTOS, Embedded Linux, bare-metal, HAL/CMSIS, LwIP; interrupts and DMA; UART, SPI, I²C, ADC, DAC, GPIO, PWM |
+| **Testing&nbsp;&amp;&nbsp;CI** | Unit tests, reference-implementation checks, end-to-end smoke tests; GitHub Actions on GCC/Clang/MSVC, sanitizers, warnings as errors; cross-compilation for ARM |
+| **Machine&nbsp;Learning** | CNNs, transfer learning (ResNet), object detection (Faster R-CNN), video classification (CNN + LSTM); dataset creation and annotation, augmentation, leakage-aware splits, error analysis |
+| **Signal&nbsp;&amp;&nbsp;Image&nbsp;Processing** | Audio: resampling, normalization, peak envelopes, sliding windows; images and video: OpenCV preprocessing, frame extraction, sliding-window analysis |
+| **Python&nbsp;Libraries** | NumPy, SciPy, Pandas, scikit-learn, PyTorch, TensorFlow/Keras, OpenCV, Pygame |
 | **Tools** | Git, SVN, CMake, GNU Make, Visual Studio, VS Code |
-| **AI-Assisted Development** | AI coding tools for implementation, design exploration, debugging and code review, with engineering validation of the results |
+| **AI‑Assisted&nbsp;Development** | AI coding tools for implementation, design exploration, debugging and code review, with engineering validation of the results |
 
 ## Featured Projects
 
