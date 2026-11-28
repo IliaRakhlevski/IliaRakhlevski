@@ -130,7 +130,7 @@ Key features:
 - Interrupt-driven ICM-20948 IMU acquisition at approximately 102 samples per second
 - Quectel LC86G-LA GNSS positioning with PPS-based hardware timestamp capture
 - Common TIM2 timebase for synchronizing IMU measurements with GNSS time
-- Acceleration-baseline algorithm associating impact candidates with UTC timestamps and coordinates
+- Moving-baseline algorithm associating impact candidates with UTC timestamps and coordinates
 - Real-hardware validation with documented field-test output, photographs, and video
 - CI: firmware build with arm-none-eabi-gcc
 
