@@ -9,29 +9,41 @@ C/C++ Software Engineer with a strong track record in large-scale production des
 ⭐ — [featured below with details](#user-content-featured-projects).
 
 **C/C++ Software Design**
-- [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) ⭐ — **C++17** · game-rules library, Strategy and Observer design patterns, targeting strategies compared over 20,000 simulated games
-- [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine) — **C++17** · coffee vending machine as a finite-state machine (State design pattern), every state transition covered by tests
-- [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator) — **C++17** · arithmetic expressions: conversion to Reverse Polish Notation (Shunting Yard), evaluation on a stack, an error code for every failure
-- [Custom Memory Manager in C](https://github.com/IliaRakhlevski/Custom-Memory-Manager-in-C) — **C11** · fixed-pool allocator without malloc, detects double free, invalid pointers and corrupted block headers
+
+| Project | Language | What it is |
+|---|---|---|
+| [Sea Battle](https://github.com/IliaRakhlevski/Sea-Battle) ⭐ | C++17 | Game-rules library, Strategy and Observer design patterns, targeting strategies compared over 20,000 simulated games |
+| [Vending Machine](https://github.com/IliaRakhlevski/Vending-Machine) | C++17 | Coffee vending machine as a finite-state machine (State design pattern), every state transition covered by tests |
+| [Math Expression Evaluator](https://github.com/IliaRakhlevski/Math-Expression-Evaluator) | C++17 | Arithmetic expressions: conversion to Reverse Polish Notation (Shunting Yard), evaluation on a stack, an error code for every failure |
+| [Custom Memory Manager in C](https://github.com/IliaRakhlevski/Custom-Memory-Manager-in-C) | C11 | Fixed-pool allocator without malloc, detects double free, invalid pointers and corrupted block headers |
 
 **Embedded, Real-Time & Linux**
-- [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector) ⭐ — **C** · FreeRTOS on STM32, IMU + GNSS: road impacts with coordinates and GNSS time (PPS pulse sync)
-- [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester) ⭐ — **C** · FreeRTOS firmware testing UART, SPI, I²C, timer and ADC (via DAC loopback) with a Linux UDP host
-- [Step and Servo Motors Control](https://github.com/IliaRakhlevski/Step-Servo-Motors-Control) — **C** · bare-metal ARM9, register-level PWM, GPIO, interrupts, ADC; no HAL
-- [Parking System](https://github.com/IliaRakhlevski/Parking-System) ⭐ — **C, C++11** · distributed system: STM32, BeagleBone (Embedded Linux) and a multi-process Linux server, linked by I²C and TCP
-- [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch) ⭐ — **C** · FreeRTOS multitasking on Linux, UDP, priority queues
+
+| Project | Language | What it is |
+|---|---|---|
+| [STM32 Road Impact Detector](https://github.com/IliaRakhlevski/STM32-Road-Impact-Detector) ⭐ | C | FreeRTOS on STM32, IMU + GNSS: road impacts with coordinates and GNSS time (PPS sync) |
+| [STM32 Peripheral Tester](https://github.com/IliaRakhlevski/STM32-Peripheral-Tester) ⭐ | C | FreeRTOS firmware testing UART, SPI, I²C, timer and ADC (via DAC loopback) with a Linux UDP host |
+| [Step and Servo Motors Control](https://github.com/IliaRakhlevski/Step-Servo-Motors-Control) | C | Bare-metal ARM9, register-level PWM, GPIO, interrupts, ADC; no HAL |
+| [Parking System](https://github.com/IliaRakhlevski/Parking-System) ⭐ | C, C++11 | Distributed system: STM32, BeagleBone (Embedded Linux) and a multi-process Linux server, linked by I²C and TCP |
+| [City Emergency Dispatch](https://github.com/IliaRakhlevski/City-Emergency-Dispatch) ⭐ | C | FreeRTOS multitasking on Linux, UDP, priority queues |
 
 **Computer Vision & Deep Learning**
-- [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos) ⭐ — **Python** · M.Sc. final project, CNN + LSTM, staged dataset recorded with dolls
-- [License Plates Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition) — **Python** · Faster R-CNN in PyTorch, self-annotated dataset
-- [Traffic Signs Detection](https://github.com/IliaRakhlevski/Traffic-Signs-Detection) — **Python** · Mask R-CNN in Keras/TensorFlow, self-annotated polygon masks
-- [One Piece Characters Classification](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18) — **Python** · fine-tuned ResNet18 in PyTorch, 18 classes, no data leakage between train and test, results confirmed with three random seeds
-- [Digits Recognition](https://github.com/IliaRakhlevski/Digits-Recognition) — **C++** · HOG features and a fully connected neural network (288 → 288 → 10, backpropagation), both written from scratch
+
+| Project | Language | What it is |
+|---|---|---|
+| [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos) ⭐ | Python | M.Sc. final project, CNN + LSTM, staged dataset recorded with dolls |
+| [License Plates Recognition](https://github.com/IliaRakhlevski/License-Plates-Recognition) | Python | Faster R-CNN in PyTorch, self-annotated dataset |
+| [Traffic Signs Detection](https://github.com/IliaRakhlevski/Traffic-Signs-Detection) | Python | Mask R-CNN in Keras/TensorFlow, self-annotated polygon masks |
+| [One Piece Characters Classification](https://github.com/IliaRakhlevski/Classification-of-One-Piece-characters-using-ResNet18) | Python | Fine-tuned ResNet18 in PyTorch, 18 classes, no data leakage between train and test, results confirmed with three random seeds |
+| [Digits Recognition](https://github.com/IliaRakhlevski/Digits-Recognition) | C++ | HOG features and a fully connected neural network (288 → 288 → 10, backpropagation), both written from scratch |
 
 **Machine Learning, Audio & Simulation**
-- [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods) ⭐ — **Python** · audio signal processing (resampling, normalization, peak envelopes) and a 2D CNN that classifies hammer, jackhammer and drill sounds
-- [Speed Dating Experiment](https://github.com/IliaRakhlevski/Speed-Dating-Experiment) — **Python** · exploratory data analysis (EDA), five scikit-learn classifiers, leave-one-wave-out cross-validation
-- [Autonomous Road Merging Simulation](https://github.com/IliaRakhlevski/Simulation-of-Autonomous-Road-Merging) — **Python** · Pygame, FSM vehicle control, crashes cut from 45% to 6%
+
+| Project | Language | What it is |
+|---|---|---|
+| [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods) ⭐ | Python | Audio signal processing (resampling, normalization, peak envelopes) and a 2D CNN that classifies hammer, jackhammer and drill sounds |
+| [Speed Dating Experiment](https://github.com/IliaRakhlevski/Speed-Dating-Experiment) | Python | Exploratory data analysis (EDA), five scikit-learn classifiers, leave-one-wave-out cross-validation |
+| [Autonomous Road Merging Simulation](https://github.com/IliaRakhlevski/Simulation-of-Autonomous-Road-Merging) | Python | Pygame, FSM vehicle control, crashes cut from 45% to 6% |
 
 ## Technical Focus
 
