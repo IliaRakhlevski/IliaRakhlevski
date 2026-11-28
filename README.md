@@ -65,7 +65,7 @@ Key features:
 - Rules library with no I/O: board, fleet placement, shooting and game session are independent of the UI
 - Pluggable placement and targeting strategies (Strategy), game events for any front end (Observer), dependency injection via `std::unique_ptr`
 - Modern C++17: `std::optional`, `std::variant`, RAII, value types, `[[nodiscard]]`
-- Computer strategies compared by measurement on simulated games
+- Computer targeting strategies compared over 20,000 simulated games
 - Six test programs; CI on GCC, Clang, GCC with sanitizers and MSVC, warnings as errors
 
 ### Linux Systems & Concurrency
@@ -113,7 +113,7 @@ Key features:
 - Concurrent validation of UART, SPI, I²C, ADC (via DAC loopback), and timer peripherals
 - Interrupt- and DMA-based test modes
 - Automated PASS/FAIL evaluation with random payload generation and CRC verification
-- UDP communication between the STM32 firmware and Linux server
+- UDP communication between the STM32 firmware and the Linux server
 - Runtime statistics and persistent test results stored in SQLite
 - CI: firmware build (FreeRTOS + LwIP) with arm-none-eabi-gcc and Linux server build
 
@@ -149,13 +149,13 @@ Key features:
 
 #### 📹 [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos)
 
-M.Sc. final project: detection of physical violence of adults against children in surveillance videos with a CNN + LSTM model in Python and Keras/TensorFlow, trained on a self-recorded staged dataset.
+M.Sc. final project: detection of physical violence by adults against children in surveillance videos with a CNN + LSTM model in Python and Keras/TensorFlow, trained on a self-recorded staged dataset.
 
 <a href="https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos/main/images/overview.png" alt="Detection of Violence Against Children in Videos overview" width="800"></a>
 
 Key features:
 
-- Self-recorded dataset of about 8,000 20-frame clips recorded with reborn dolls instead of children; both classes are recorded in the same scene, so the model learns from the movement only
+- Self-recorded dataset of about 8,000 20-frame clips filmed with reborn dolls instead of children; both classes are recorded in the same scene, so the model learns from the movement only
 - ResNet152V2 (ImageNet-pretrained, frozen) extracts the features of each frame; a bidirectional LSTM classifies the movement over 20 frames
 - Sliding-window processing of long surveillance videos, with merging of the detected violent fragments
 - Tested on 120 videos (45,850 frames) of four types: staged, real with violence, real without violence, empty rooms
