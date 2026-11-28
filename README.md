@@ -132,7 +132,7 @@ Key features:
 - Real-hardware validation with documented field-test output, photographs, and video
 - CI: firmware build with arm-none-eabi-gcc
 
-### Machine Learning
+### Machine Learning & Computer Vision
 
 #### 🔊 [Tool Sound Classification](https://github.com/IliaRakhlevski/Classification-of-tools-sounds-using-machine-learning-methods)
 
@@ -149,13 +149,13 @@ Key features:
 
 #### 📹 [Detection of Violence Against Children in Videos](https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos)
 
-M.Sc. final project: detection of physical violence of adults against children in surveillance videos with a CNN + LSTM model in Python and Keras/TensorFlow, trained on an own staged dataset.
+M.Sc. final project: detection of physical violence of adults against children in surveillance videos with a CNN + LSTM model in Python and Keras/TensorFlow, trained on a self-recorded staged dataset.
 
 <a href="https://github.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos"><img src="https://raw.githubusercontent.com/IliaRakhlevski/Detection-of-violence-against-children-in-videos/main/images/overview.png" alt="Detection of Violence Against Children in Videos overview" width="800"></a>
 
 Key features:
 
-- Own dataset of about 8,000 20-frame clips recorded with reborn dolls instead of children; both classes are recorded in the same scene, so the model learns from the movement only
+- Self-recorded dataset of about 8,000 20-frame clips recorded with reborn dolls instead of children; both classes are recorded in the same scene, so the model learns from the movement only
 - ResNet152V2 (ImageNet-pretrained, frozen) extracts the features of each frame; a bidirectional LSTM classifies the movement over 20 frames
 - Sliding-window processing of long surveillance videos, with merging of the detected violent fragments
 - Tested on 120 videos (45,850 frames) of four types: staged, real with violence, real without violence, empty rooms
