@@ -2,7 +2,7 @@
 
 # Hi, I'm Ilia 👋
 
-I'm a C/C++ software engineer with 20+ years of experience, focused on large-scale production desktop applications: complex data processing, performance optimization and debugging in long-lived codebases. I also have a hardware/software background in embedded firmware for security and industrial systems.
+With 20+ years of experience as a C/C++ software engineer, I focus on large-scale production desktop applications: complex data processing, performance optimization and debugging in long-lived codebases. I also have a hardware/software background in embedded firmware for security and industrial systems.
 
 This profile collects my recent projects in C and modern C++ (C++11/17): software design, Linux systems programming and STM32/FreeRTOS firmware, along with machine learning in Python (signal processing and computer vision).
 
